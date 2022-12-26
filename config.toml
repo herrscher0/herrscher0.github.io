@@ -15,17 +15,41 @@ imageWidth = 120
 imageHeight = 120
 
   [[params.profileMode.buttons]]
-  name = "Archive"
-  url = "/archive"
-
-  [[params.profileMode.buttons]]
   name = "点歌"
   url = "https://github.com/"
 
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archives/"
+
 [[params.socialIcons]]
-name = "<bilibili>"
+name = "bilibili"
 url = "https://live.bilibili.com/594461"
 
 [[params.socialIcons]]
-name = "<qq>"
-url = "<link2>"
+name = "qq"
+url = "https://jq.qq.com/?_wv=1027&k=NId3lhYg"
+
+[outputs]
+    home = [ "HTML", "RSS", "JSON" ]
+
+[[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+[[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+[[menu.main]]
+    identifier = "search"
+    name = "search"
+    url = "/search/"
+    weight = 30
+[[menu.main]]
+    identifier = "archives"
+    name = "archives"
+    url = "/archives/"
+    weight = 40

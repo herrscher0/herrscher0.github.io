@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://example.org/index.xml">
+<link rel="alternate" type="application/json" href="http://example.org/index.json">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +75,7 @@
   "description": "",
   "thumbnailUrl": "http://example.org/favicon.ico",
   "sameAs": [
-      "https://live.bilibili.com/594461", "\u003clink2\u003e"
+      "https://live.bilibili.com/594461", "https://jq.qq.com/?_wv=1027\u0026k=NId3lhYg"
   ]
 }
 </script>
@@ -120,6 +121,26 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://example.org/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://example.org/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -129,28 +150,26 @@
             height="120" width="120" />
         <h1>-阿蕊娅Aria-</h1>
         <span>是唱歌的小美人鱼</span><div class="social-icons">
-    <a href="https://live.bilibili.com/594461" target="_blank" rel="noopener noreferrer me" title="&lt;Bilibili&gt;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+    <a href="https://live.bilibili.com/594461" target="_blank" rel="noopener noreferrer me" title="Bilibili">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+    <rect x="1.3333" y="6" width="21.333" height="15.333" rx="4" ry="4"/>
+    <path d="m8 12.4v1.2"/>
+    <path d="m16 12.4v1.2"/>
+    <path d="m5.8853 2.6667 2.6667 2.6667"/>
+    <path d="m18.115 2.6667-2.6667 2.6667"/>
 </svg>
     </a>
-    <a href="%3clink2%3e" target="_blank" rel="noopener noreferrer me" title="&lt;Qq&gt;">
+    <a href="https://jq.qq.com/?_wv=1027&amp;k=NId3lhYg" target="_blank" rel="noopener noreferrer me" title="Qq">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+    <path transform="scale(0.04) translate(75 40)" stroke-width="50"
+        d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z">
+    </path>
 </svg>
     </a>
 </div>
 
         <div class="buttons">
-            <a class="button" href="/archive" rel="noopener" title="Archive">
-                <span class="button-inner">
-                    Archive
-                </span>
-            </a>
             <a class="button" href="https://github.com/" rel="noopener" title="点歌">
                 <span class="button-inner">
                     点歌&nbsp;
@@ -160,6 +179,11 @@
                         <path d="M15 3h6v6"></path>
                         <path d="M10 14L21 3"></path>
                     </svg>
+                </span>
+            </a>
+            <a class="button" href="/archives/" rel="noopener" title="Archive">
+                <span class="button-inner">
+                    Archive
                 </span>
             </a>
         </div>
