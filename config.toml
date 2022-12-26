@@ -16,7 +16,7 @@ imageHeight = 120
 
   [[params.profileMode.buttons]]
   name = "点歌"
-  url = "https://github.com/"
+  url = "/songs/"
 
   [[params.profileMode.buttons]]
   name = "Archive"
@@ -30,26 +30,30 @@ url = "https://live.bilibili.com/594461"
 name = "qq"
 url = "https://jq.qq.com/?_wv=1027&k=NId3lhYg"
 
+[[params.socialIcons]]
+name = "email"
+url = "https://www.tapechat.net/uu/RGIAYJ/ZIOON5KJ?uid=7195666"
+
 [outputs]
     home = [ "HTML", "RSS", "JSON" ]
 
 [[menu.main]]
-    identifier = "categories"
-    name = "categories"
-    url = "/categories/"
+    identifier = "点歌"
+    name = "点歌"
+    url = "/songs/"
     weight = 10
-[[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    url = "/tags/"
-    weight = 20
+#[[menu.main]]
+#    identifier = "tags"
+#    name = "tags"
+#    url = "/tags/"
+#    weight = 20
 [[menu.main]]
     identifier = "search"
     name = "search"
     url = "/search/"
-    weight = 30
+    weight = 40
 [[menu.main]]
     identifier = "archives"
     name = "archives"
     url = "/archives/"
-    weight = 40
+    weight = 30
