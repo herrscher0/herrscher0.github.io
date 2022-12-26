@@ -23,9 +23,9 @@ imageHeight = 120
   url = "https://github.com/"
 
 [[params.socialIcons]]
-name = "<qq>"
-url = "<link>"
+name = "<bilibili>"
+url = "https://live.bilibili.com/594461"
 
 [[params.socialIcons]]
-name = "<platform 2>"
+name = "<qq>"
 url = "<link2>"
