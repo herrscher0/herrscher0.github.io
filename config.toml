@@ -1,6 +1,31 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '一 只 好 鱼'
 theme = 'PaperMod'
 
 publishDir = "docs"
+
+[params.profileMode]
+enabled = true
+title = "-阿蕊娅Aria-"
+subtitle = "是唱歌的小美人鱼"
+imageUrl = "/profile.jpg"
+imageTitle = "彻底疯狂！！"
+imageWidth = 120
+imageHeight = 120
+
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archive"
+
+  [[params.profileMode.buttons]]
+  name = "点歌"
+  url = "https://github.com/"
+
+[[params.socialIcons]]
+name = "<qq>"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "<platform 2>"
+url = "<link2>"
