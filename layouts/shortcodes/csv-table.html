@@ -1,7 +1,7 @@
 {{ $rows := .Inner | transform.Unmarshal }}
 
 <div>
-    <table width="10">
+    <table>
         {{ $headerRow := index $rows 0 }} {{ $rows = after 1 $rows }}
         <tr>
             {{ range $headerRow }}
