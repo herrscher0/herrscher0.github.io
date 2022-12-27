@@ -5,12 +5,18 @@ url: "/songs/"
 summary: songs
 ---
 
-➤ 阿蕊娅的歌单：
-https://docs.qq.com/sheet/DWkduVXhic2lMVG1C?tab=BB08J2
+➤ [阿蕊娅的歌单](https://docs.qq.com/sheet/DWkduVXhic2lMVG1C?tab=BB08J2)
 
-➤ 阿蕊娅的学歌板：
-https://docs.qq.com/sheet/DWkRnbkFveHpJd0JW?tab=BB08J2
+➤ [阿蕊娅的学歌板](https://docs.qq.com/sheet/DWkRnbkFveHpJd0JW?tab=BB08J2)
 
+{{< rawhtml >}}
+
+<div>
+<iframe src="https://docs.qq.com/sheet/DWkduVXhic2lMVG1C?tab=BB08J2" width="1000px" height="1000px" frameborder="0" scrolling="no"> </iframe>
+</div>
+{{< /rawhtml >}}
+
+<!--
 {{< csv-table >}}
 歌名,语种,分类,备注,更新日期,
 A.I.N.I.爱你,国语,流行,,2022.12.04,
@@ -281,4 +287,4 @@ Think of me,英语,音乐剧,,2022.12.04,
 墨衣,国语,古风,,2022.12.04,
 默,国语,流行,,2022.12.04,
 TRUE,日语,流行,,2022.12.04,
-{{< /csv-table >}}
+{{< /csv-table >}} -->
