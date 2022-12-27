@@ -1,6 +1,6 @@
 baseURL = 'https://herrscher0.github.io/'
 languageCode = 'en-us'
-title = '一 只 好 鱼（🍵版）'
+title = '一 只 🍵 鱼'
 theme = 'PaperMod'
 
 publishDir = "docs"
